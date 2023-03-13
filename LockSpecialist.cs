@@ -20,5 +20,12 @@ namespace bank_heist2
             }
         }
 
+        public LockSpecialist(string name, int skillLevel, int percentageCut)
+        {
+            Name = name;
+            SkillLevel = skillLevel;
+            PercentageCut = percentageCut;
+        }
+
     }
 }

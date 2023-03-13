@@ -20,5 +20,12 @@ namespace bank_heist2
             }
         }
 
+        public Hacker (string name, int skillLevel, int percentageCut)
+        {
+            Name = name;
+            SkillLevel = skillLevel;
+            PercentageCut = percentageCut;
+        }
+
     }
 }

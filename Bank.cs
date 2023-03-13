@@ -19,5 +19,13 @@ namespace bank_heist2
                 return !(AlarmScore <= 0 && VaultScore <= 0 && SecurityGuardScore <= 0);
             }
         }
+
+        public Bank(int coh, int alarm, int vault, int security)
+        {
+            CashOnHand = coh;
+            AlarmScore = alarm;
+            VaultScore = vault;
+            SecurityGuardScore = security;
+        }
     }
 }
